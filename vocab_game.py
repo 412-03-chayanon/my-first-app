@@ -93,7 +93,7 @@ ans3 = st.text_input(
 ans4 = st.text_input(
     "ข้อ 4: Cats love to eat `b _ _ a n a`. 🍌",
     value=st.session_state.ans4_val,
-
+)
 # อัปเดตค่าล่าสุดเข้าตัวแปร
 st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
